@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    height: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.content {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+button {
+    display: block;
+    width: 600px;
+    margin: 10px auto;
+    background-color: #ea0f0f;
+    color: white;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.input-group label {
+    margin-right: 10px;
+}
+
+
+.input-group {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.title {
+    width: 100%;
+    background-color: #016bca;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    position: relative;
+}
+
+input {
+    width: 70%;
+    height: 40px;
+
+}
+
+.input_container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button_click {
+    margin-bottom: 30px;
+}
+
+.form {
+    height: 90%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+
+.text {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+.labels {
+    padding-top: 7px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.figma-btn {
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
